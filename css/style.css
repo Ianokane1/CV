@@ -42,3 +42,45 @@ header{
     font-weight: 700;
     letter-spacing: 1px;
 }
+span{
+    color: var(--main-color);
+}
+.navlist{
+    display: flex;
+}
+.navlist a{
+    color: var(--second-color);
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0 25px;
+    transition: all .45s;
+}
+.navlist a:hover{
+    color: var(--main-color);
+}
+.navlist a.active{
+    color: var(--main-color);
+}
+#menu-icon{
+    font-size: 35px;
+    color: var(--text-color);
+    z-index: 10001;
+    cursor: pointer;
+    margin-left: 25px;
+    display: none;
+}
+
+section{
+    padding: 160px 15% 120px;
+}
+.home{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image:url(../images/ian.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
