@@ -172,7 +172,7 @@ section{
 
 header.sticky{
     background: var(--bg-color);
-    border-bottom: 1px solid #ffffff1a;
+    border-bottom: 1px solid #e325251a;
     padding: 12px 15%;
 }
 
@@ -316,10 +316,10 @@ header.sticky{
     font-size: 1rem;
     line-height: 1.8;
 }
-layer i{
+.layer i{
     color: var(--main-color);
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 50px;
     background: var(--text-color);
     width: 60px;
     height: 60px;
